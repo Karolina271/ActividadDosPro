@@ -1,0 +1,54 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Karolina271/ActividadDosPro/blob/main/actividad%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "x15ZoEHa-8ax"
+      },
+      "outputs": [],
+      "source": [
+        "def verificar_elemento(tupla, elemento):\n",
+        "  if elemento in tupla:\n",
+        "      return True\n",
+        "  else:\n",
+        "      return False\n",
+        "\n",
+        "\n",
+        "\n",
+        "mi_tupla = (2, 4, 6, 8)\n",
+        "elemento_dado = 6\n",
+        "\n",
+        "if verificar_elemento(mi_tupla, elemento_dado):\n",
+        "    print(f\"El elemento {elemento_dado} está presente en la tupla.\")\n",
+        "else:\n",
+        "    print(f\"El elemento {elemento_dado} no está presente en la tupla.\")"
+      ]
+    }
+  ]
+}
